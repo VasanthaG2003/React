@@ -1,0 +1,34 @@
+FUNCTIONAL COMPONENTS
+   
+      1) Definition:
+               -> Functional components are javascript function that return JSX(UI Elements).
+               -> Regular Javascript functions.
+               ->The functions will return the JSX.
+
+       2) Syntax: 
+               -> They are writing as regular Javascript functions, often using arrow function syntax.
+
+       3) Stateless:
+                -> Functional components are Stateless by default, meaning they dont have their own internal state.
+                -> They rely on props from parent components.
+
+        NOTE : A Stateless component, also known as a functional component, is a fundamental concept in React that represents a UI element without any internal state management.
+
+        4) State Management :
+                -> State Management in React applications that enable you to modularize and that will encapsulate the updates of states.
+                -> Therefore, You can maintain and debug your codebase.
+                -> Proir to React 16.8, functional component couldn't manage state.
+                -> With introduction of Hooks, they can now manage state using the 'useState' hook.
+
+        5) Lifecycle: 
+                -> Functional component don't have Lifecycle method like class components.
+                -> Instead, they can use Hooks like 'useEffect' to replicate Lifecycle behavior.
+
+        6) Performance:
+                -> Functional components are generally considered more lightweight and easier to optimize, as they dont involved the overhead of class component instances.
+
+        7) Readability: 
+                -> Functional components can be more concise and easier to read, especially for simple UI render.
+
+        8) Code Organization:
+                -> Functional Component promote functional programming concept and modular code organization.

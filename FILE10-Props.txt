@@ -1,0 +1,20 @@
+REACT PROPS 
+   
+   1) Props in REACT:
+         -> Props (Short for properties) are a way  to pass data from a parent component to child component in React.
+
+   2) Data flow:
+         -> Props enable a unidirectional data flow, where data is passed from parent to child but not the other way around.
+
+    3) Immutable and Read-Only:
+         -> Props are Immutable and cant be modified by the child component that receives them.
+
+    4) Passing props:
+         -> Parent component pass props to child component by including them as attributes in the child components JSX element.
+
+    NOTE: 
+        -> Props only get sent from parent to child
+        -> Child component cant modify/change the props
+        -> You can see any number of props
+        -> They can have name and value
+        -> It can be optional too.
